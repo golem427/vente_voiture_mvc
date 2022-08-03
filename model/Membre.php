@@ -25,7 +25,7 @@
         public function __construct()
         {
             // initialisation de l'attribut $cBdd
-            $this->cBdd = new ConnexionController;
+            $this->cBdd = new ModelConnexionController;
         }
         // les méthodes
         // Avant tout, il faut créer un membre qui soit administrateur pour pouvoir

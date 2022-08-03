@@ -121,10 +121,10 @@
             // si admin est présent dans le résultat de la recherche
             if($getAdmin !== false):
                 // si (l'index admin est définie dans la session et que admin est faux)
-                // ou que l'index admin n'est pas définie dans la session
+                // ou que l'index admin n'est pas défini dans la session
                 if(((isset($_SESSION['admin']) && ($_SESSION['admin'] == false))) || (!isset($_SESSION['admin']))):
                     // on fait une redirection automatique vers la page d'accueil
-                    header('Location:/vente-voiture-mvc');
+                    header("Location:/voiture1");
                     exit();
                 endif;
             endif;

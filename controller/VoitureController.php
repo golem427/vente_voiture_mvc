@@ -4,7 +4,8 @@
 
     namespace Vente_voiture_mvc\Controller;
 
-    use Vente_voiture_mvc\Model\Voiture;
+    use Vente_voiture_mvc\Model\Voiture
+    
 
     class VoitureController
     {

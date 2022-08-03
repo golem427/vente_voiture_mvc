@@ -1,10 +1,13 @@
 <?php
+
     declare(strict_types = 1);
 
     namespace Vente_voiture_mvc\Model;
 
     use PDO;
-    use Vente_voiture_mvc\Controller\ConnexionController;
+    
+
+use Voiture1\Model\ConnexionController as ModelConnexionController;
 
     class Voiture
     {
@@ -26,7 +29,7 @@
         public function __construct()
         {
             // on instancie la classe ConnexionController
-            $this->cBdd = new ConnexionController;
+            $this->cBdd = new ModelConnexionController;
         }
 
         // les méthodes
