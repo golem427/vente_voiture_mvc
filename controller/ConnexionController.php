@@ -27,8 +27,8 @@
                 $this->host = "localhost";
                 $this->user = "root";
                 // pour les MAC $this->password = "root"
-                $this->password = "tiger78";
-                $this->bdd = "vvoiture";
+                $this->password = "root";
+                $this->bdd = "voiture1";
             else:
                 // ici vous placerez les informations de la bdd données par l'hébergeur
                 // (à remplir)
